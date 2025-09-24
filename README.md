@@ -68,7 +68,7 @@ This will start the development server under
 Using the `ocean-market` with `barge` components is recommended for advanced users, if you are new we advice you to use the `ocean-market` first with remote networks. If you prefer to connect to locally running components instead of remote connections, you can spin up [`barge`](https://github.com/oceanprotocol/barge) and use a local Ganache network in another terminal before running `npm start`. To fully test all [The Graph](https://thegraph.com) integrations, you have to start barge with the local Graph node:
 
 ```bash
-git clone git@github.com:oceanprotocol/barge.git
+git clone https://github.com/oceanprotocol/barge.git
 cd barge
 
 # startup with local Ganache and Graph nodes
